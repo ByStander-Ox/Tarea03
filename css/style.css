@@ -141,17 +141,7 @@ height: auto;
 }
 figure{margin:0;}
 
-ul,ol{
 
-    list-style-type:none;
-    padding: 0;
-    margin: 20px 0 35px 0;
-}
-li{
-    line-height: 21px;
-    margin-bottom: 20px;
-
-}
 section{margin: 0;
 width: 1200px;}
 
@@ -201,7 +191,7 @@ position: relative;
     align-items: center;
     height: 380px;
     justify-content: space-between;
-
+    border-top: 1px solid var(--color-white);
     background-color: var(--primary-color)
     
 }
@@ -210,6 +200,7 @@ position: relative;
 #titulo1{
     
     margin-right: 176px;
+    
 }
 
 .tarribadelaenvoltura{
@@ -221,17 +212,20 @@ position: relative;
   height: 157px;
     margin-left: 11px;}
 
-#figura1{
+#envolturafigura1{
     width: 590px;
   height: 380px;
-  display:flex;
-  align-items: center;
+  
  
 }
+#envolturafigura1 figure{
+    margin:54px 218px 54px 100px
+}
+
 /* Seccion 2*/
 
 .seccion2 {
-    outline: blue 1px solid;
+    
      display: flex;
     align-items: center;
     height: 338px;
@@ -246,7 +240,7 @@ position: relative;
 .envoltura2{
 width: 480px;
   height: 172px;
-  margin-left: 100px;
+  margin-left: 120px;
   margin-top: 30px;
   margin-bottom: 28px;
 }
@@ -256,7 +250,11 @@ width: 480px;
    align-self: flex-end;
 }
 .envoltura4>h2{margin-bottom: 10px ;}
-.envoltura4>p{margin-bottom: 10px ;}
+.envoltura4>p{
+    display: inline-block;
+    width: 480px;
+    height: 72px;
+    margin-bottom: 10px ;}
 
 #figura2{
     width: 580px;
@@ -275,27 +273,71 @@ width: 480px;
 /* Seccion 3*/
 
 .seccion3 {
+    
      display: flex;
     align-items: center;
-    height: 276px;
+    height: 455px;
+    width: 1200px;
     justify-content: space-between;
     
 }
+#titulo3{
+    
+    margin-left: 10px;
+     
+  margin-top: 113px;
+  margin-bottom: 112px;
+  
+}
+.envoltura3{
+ width: 580px;
+  height: 230px;
+ 
+
+}
+
+.envoltura9>a{
+    display: flex;
+   align-self: flex-end;
+}
+.envoltura9>h2{margin-bottom: 10px;}
+.envoltura9>p{
+    display: inline-block;
+    height: 72px;
+    width: 480px;
+    margin-bottom: 10px;
+}
+.envolturafigura3{
+    width: 580px;
+  height: 387px;
+  display: flex;
+  margin-right: 10px;
+}
+#figura3{
+     
+  
+  margin-right: 10px;
+  margin-right: 168px;
+  margin-left: 100px;
+  margin-top: 68px;
+}
+
+
 /* Seccion 4*/
 .seccion4 {
      display: flex;
     align-items: center;
-    height: 333px;
+    height: 326px;
     justify-content: space-between;
     
 }
 
 /* Seccion 5*/
 
-.seccion3 {
+.seccion5 {
      display: flex;
     align-items: center;
-    height: 338px;
+    height: 363px;
     justify-content: space-between;
     
 }
